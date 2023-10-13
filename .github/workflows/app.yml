@@ -1,0 +1,47 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.11.1
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.11.1"
+
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+
+  test:
+
+    needs: build
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.11.1
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.11.1"
+
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+
+    - name: Start test
+      run: python -m unittest discover -s tests

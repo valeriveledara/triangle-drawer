@@ -4,7 +4,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.11.1-blue)
 [![GitHub release](https://img.shields.io/github/release/valeriveledara/triangle-drawer.svg)](https://github.com/valeriveledara/triangle-drawer/releases)
 ![GitHub stars](https://img.shields.io/github/stars/valeriveledara/triangle-drawer)
-[![Build and Test](https://github.com/valeriveledara/triangle-drawer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/valeriveledara/triangle-drawer/actions/workflows/app.yml)
+[![Build and Test](https://github.com/valeriveledara/triangle-drawer/actions/workflows/app.yml/badge.svg?branch=main)](https://github.com/valeriveledara/triangle-drawer/actions/workflows/app.yml)
 ---
 Приложение рисует равносторонние треугольники внутри друг друга, 
 процессом можно управлять с помощью клавиш.
