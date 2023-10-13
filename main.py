@@ -2,10 +2,9 @@ import math
 import tkinter as tk
 
 
-class CanvasApp(tk.Tk):
+class TriangleDrawerApp(tk.Tk):
     """
-    Класс CanvasApp представляет приложение для рисования равносторонних
-    треугольников с использованием библиотеки tkinter.
+    Класс CanvasApp представляет приложение для рисования равносторонних треугольников с использованием библиотеки tkinter.
 
     Атрибуты:
     - canvas: холст для рисования треугольников
@@ -22,8 +21,7 @@ class CanvasApp(tk.Tk):
 
     def __init__(self):
         """
-        Инициализирует приложение, создает холст, задает начальные параметры
-        треугольника и привязывает события.
+        Инициализирует приложение, создает холст, задает начальные параметры треугольника и привязывает события.
         """
         tk.Tk.__init__(self)
         self.canvas = tk.Canvas(self, width=800, height=800)
@@ -87,5 +85,5 @@ class CanvasApp(tk.Tk):
 
 
 if __name__ == "__main__":
-    app = CanvasApp()
+    app = TriangleDrawerApp()
     app.mainloop()
