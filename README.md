@@ -1,10 +1,10 @@
-# Triangle Drawer App
+# **Triangle Drawer App**
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) 
-![Python Version](https://img.shields.io/badge/python-3.11.1-blue)
+![License](https://img.shields.io/badge/license-MIT-red.svg) 
+![Python Version](https://img.shields.io/badge/python-3.11.1-green)
 [![GitHub release](https://img.shields.io/github/release/valeriveledara/triangle-drawer.svg)](https://github.com/valeriveledara/triangle-drawer/releases)
-![GitHub stars](https://img.shields.io/github/stars/valeriveledara/triangle-drawer)
 [![Build and Test](https://github.com/valeriveledara/triangle-drawer/actions/workflows/app.yml/badge.svg?branch=main)](https://github.com/valeriveledara/triangle-drawer/actions/workflows/app.yml)
+[![Telegram](https://img.shields.io/badge/Telegram-bloody_marr-22A5E0?style=social&logo=telegram)](https://t.me/bloody_marr)
 ---
 Приложение рисует равносторонние треугольники внутри друг друга, 
 процессом можно управлять с помощью клавиш.
@@ -25,7 +25,7 @@
 ---
 <img src="gif/gifApp.gif" alt="Демонстрация">
 
-## Как установить
+## **Запуск и установка**
 
 ---
 
@@ -38,7 +38,7 @@ pip install tk
 ```
 
 
-## Как использовать
+## **Как использовать**
 
 ---
 Открыть терминал в исходной папке проекта и выполнить следующую команду:
@@ -52,14 +52,14 @@ python main.py
 2) d: Удалить последний нарисованный равносторонний треугольник.
 3) Escape(ESC): Закрыть приложение.
 
-## Лицензия
+## **Лицензия**
 
 ---
 
 Этот проект лицензирован в соответствии с условиями лицензии [MIT](LICENSE.md).
 
 
-## Автор
+## **Автор**
 
 ---
   - GitHub: [valeriveledara](https://github.com/valeriveledara)
